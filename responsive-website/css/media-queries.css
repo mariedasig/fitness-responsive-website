@@ -26,5 +26,111 @@
 }
 
 @media (max-width: 450px) {
+
+    header {
+        background-position-x: -500px ;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 10px;
+        margin-bottom: 100px;
+    }
+
+    #navbar .logo {
+        margin: 15px;
+    }
+
+    #navbar .menu-bar {
+        width: 100%;
+    }
+
+    #navbar .menu-bar ul li {
+        margin-bottom: 10px;
+        
+    }
+
+    #navbar .menu-bar ul li a {
+        padding: 5px;
+    }
+
+    #training {
+        padding-top: 100px;
+    }
+
+    #training > h2 {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    #training > p {
+        margin: 5px 20px;
+        font-size: 16px;
+    }
+
+    .iconContainer {
+        width: 75%;
+    }
+
+    .promiseBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #promise > h2 {
+        font-size: 30px;
+        padding-top: 50px;
+        color: black;
+    }
+
+    #promise > p {
+        max-width: 270px;
+        font-size: 16px;
+        color: gray;
+    }
+
+    .promiseContainer p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .promiseContainer > i {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .promiseLeft .promiseContainer {
+        text-align: center;
+    }
+
+    .promiseRight .promiseContainer {
+        text-align: center;
+    }
+
+    .promiseLeft, .promiseRight, .trainer {
+        width: 70%;
+    }
+
+    .promiseRight {
+        margin-top: 75px;
+    }
+
+    .feature-copy h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about-trainer, .footer-social, .footer-contact {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    
+    
+
+
+
     
 }

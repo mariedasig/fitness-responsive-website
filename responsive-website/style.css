@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 250px;
+    transition: all 0.4s ease-in-out;
 }
 
 .logo, .menu-bar {
@@ -34,13 +35,27 @@
 
 .menu-bar ul li {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .menu-bar ul li a {
     text-decoration: none;
     color: white;
     padding: 15px;
+}
+
+#navbar.active {
+    background-color: red;
+    padding-top: 30px 50px;
+    position: fixed;
+    width: 100%;
+    background-color: teal;
+    opacity: 75%;
+    font-weight: 900;
+}
+
+#navbar.active ul li a {
+    font-size: 18px;
 }
 
 /*----- HEADER SECTION -----*/

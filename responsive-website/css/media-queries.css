@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    
+    header h1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .trainer {
+        display: flex;
+        align-items: center;
+    }
+
+    #features {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    #features .feature-image, #features .feature-copy {
+        width: 100%;
+    }
+
+    .feature-copy {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    
+}

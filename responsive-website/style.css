@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----- NAV SECTION -----*/
+
+#navbar {
+    background-color: transparent;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+
+.logo, .menu-bar {
+    display: inline-block;
+}
+
+.logo a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-bar ul {
+    list-style: none;
+}
+
+.menu-bar ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+/*----- HEADER SECTION -----*/
+
+header {
+    text-align: center;
+    background-color: orange;
+    padding-bottom: 100px;
+    background-image: url('images/kike-vega-F2qh3yjz6Jk-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+}
+
+header p {
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: white;
+}
+
+header .header-button {
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid rgb(0, 174, 218);
+    background-color: rgb(0, 174, 218);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 42px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .header-button:hover {
+    color: #00aeda;
+    background: #222225;
+    background-color: #222225 ;
+}
+
+/*----- TRAINING SECTION -----*/
+
+#training {
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    color: white;
+    padding-top: 100px;
+    
+}
+
+#training > h2 {
+    text-transform: uppercase;
+    font-size: 37px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#training > p {
+    font-size: 14px;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.iconBox {
+    background-color: rgb(194, 194, 194);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.iconContainer {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.iconContainer .icon {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.iconContainer .icon i {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContainer h3 {
+    margin-bottom: 15px;
+}
+
+.iconContainer p {
+    font-size: 14px;
+}
+
+/* <------------------- PROMISE SECTION -----------------------> */
+
+#promise {
+    text-align: center;
+    padding: 40px 0;
+    
+}
+
+#promise img {
+    width: 100%;
+}
+
+#promise > h2 {
+    text-transform: uppercase;
+    font-size: 37px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#promise > p {
+    font-size: 14px;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.promiseLeft, .promiseRight {
+    width: 25%;
+    display: inline-block;
+}
+
+.promiseLeft .promiseContainer {
+    text-align: right;
+    margin-bottom: 50px;
+    
+}
+.promiseRight .promiseContainer {
+    text-align: left;
+    margin-bottom: 50px;
+    
+}
+
+.promiseLeft, .promiseContainer p, .promiseRight, .promiseContainer p {
+    color: #A1A1A1;
+    font-size: 17px;
+}
+
+.promiseLeft .promiseContainer i, .promiseRight .promiseContainer i {
+    color: teal;
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.trainer {
+    display: inline-block;
+    width: 25%;
+    margin: 0 50px;
+    margin-top: 10px;
+}
+
+.trainer img {
+    max-width: 100%;
+}
+
+.promiseBox {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------FEATURES SECTION---------------- */
+
+#features {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: #F9F9F9;
+}
+
+.feature-image, .feature-copy {
+    width: 50%;
+}
+
+.feature-image {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.feature-image img {
+    max-width: 100%;
+}
+
+.feature-copy {
+    margin: 10px;
+}
+
+.feature-copy h2 {
+    font-size: 37px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.feature-copy p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.4;
+}
+
+.feature-copy ul {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.feature-copy ul li {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+/*------------------ FOOTER -------------------------- */
+
+footer {
+    background-color: black;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    color: white;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.about-trainer, .footer-social, .footer-contact {
+    width: 28%;
+    text-align: center;
+}
+
+.about-trainer p {
+    color: white;
+    font-size: 13px;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-social ul li {
+    margin-bottom: 5px;
+}
+
+.footer-social ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-contact p {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: gray;
+}
